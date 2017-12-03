@@ -1,6 +1,6 @@
 {
   "name": "leadcollector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A robust Node.js scraper that collects search results from google and checks whether if they are built on wordpress",
   "author": "EJ Ramos",
   "license": "MIT",
