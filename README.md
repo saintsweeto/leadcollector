@@ -14,15 +14,15 @@ Alternatively, you can install using Node Package Manager (npm):
 
 ## Usage
 ```javascript
-const Collector = require('leadcollector');
+var leadcollector = require("leadcollector")
 
 const options = {
-  host: 'www.google.com'
+  host: 'www.google.com',
   keyword: 'software+auckland',
   results: 100
 };
 
-Collector.collect(options, function (lead) {
+leadcollector.collect(options, function (lead) {
     console.log(lead);
 });
 ```
